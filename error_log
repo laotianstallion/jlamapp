@@ -1,0 +1,5 @@
+[03-Dec-2013 22:08:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home3/jlammie/public_html/jlamartistry.com/test/application/controllers/home.php on line 145
+[03-Dec-2013 22:08:20] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home3/jlammie/public_html/jlamartistry.com/test/application/controllers/home.php on line 145
+[18-Dec-2013 20:24:16] PHP Parse error:  syntax error, unexpected T_STRING in /home3/jlammie/public_html/jlamartistry.com/test/application/views/sitemap.php on line 1
+[18-Dec-2013 20:24:46] PHP Parse error:  syntax error, unexpected T_STRING in /home3/jlammie/public_html/jlamartistry.com/test/application/views/sitemap.php on line 2
+[18-Dec-2013 20:26:54] PHP Parse error:  syntax error, unexpected T_STRING in /home3/jlammie/public_html/jlamartistry.com/test/application/views/sitemap.php on line 1

