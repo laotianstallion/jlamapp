@@ -72,6 +72,22 @@ class Home extends CI_Controller {
 
 	}
 
+  public function bridal()
+
+  {
+
+    $data = array();
+
+    $pictures = $this->_get_pictures('bridal');
+
+    $data['title'] = "bridal";
+
+    $data['pictures'] = $pictures;
+
+    $this->load->view('picture', $data);
+
+  }
+
 	public function fashion()
 
 	{

@@ -43,6 +43,7 @@ $route['beauty'] = "home/beauty";
 $route['lifestyle'] = "home/lifestyle";
 $route['fashion'] = "home/fashion";
 $route['celebrity'] = "home/celebrity";
+$route['bridal'] = "home/bridal";
 $route['bio'] = "home/bio";
 $route['services'] = "home/services";
 $route['contact'] = "home/contact";

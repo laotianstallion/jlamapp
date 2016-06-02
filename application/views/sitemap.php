@@ -25,6 +25,12 @@
       <priority>0.6</priority>
    </url>
    <url>
+      <loc>http://jlamartistry.com/bridal</loc>
+      <lastmod>2014-01-01</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
+   </url>
+   <url>
       <loc>http://jlamartistry.com/bio</loc>
       <lastmod>2014-01-01</lastmod>
       <changefreq>monthly</changefreq>
