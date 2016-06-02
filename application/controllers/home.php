@@ -20,7 +20,7 @@ class Home extends CI_Controller {
 
 		// default view is celebrity
 
-		$this->celebrity();
+		$this->beauty();
 
 	}
 
