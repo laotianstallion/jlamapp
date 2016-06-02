@@ -16,13 +16,15 @@
 		<!-- Collect the nav links, forms, and other content for toggling -->
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-				<li<?php if ($title == 'celebrity') : ?> class="active"<?php endif; ?>><a href="<?php echo base_url(); ?>celebrity">celebrity</a></li>
-
         <li<?php if ($title == 'beauty') : ?> class="active"<?php endif; ?>><a href="<?php echo base_url(); ?>beauty">beauty</a></li>
+
+		<li<?php if ($title == 'celebrity') : ?> class="active"<?php endif; ?>><a href="<?php echo base_url(); ?>celebrity">celebrity</a></li>
 
         <li<?php if ($title == 'fashion') : ?> class="active"<?php endif; ?>><a href="<?php echo base_url(); ?>fashion">fashion</a></li>
 
         <li<?php if ($title == 'lifestyle') : ?> class="active"<?php endif; ?>><a href="<?php echo base_url(); ?>lifestyle">lifestyle</a></li>
+
+        <li<?php if ($title == 'bridal') : ?> class="active"<?php endif; ?>><a href="<?php echo base_url(); ?>bridal">bridal</a></li>
 
 			</ul>
 			<ul class="nav navbar-nav">
@@ -36,13 +38,15 @@
 	</nav>
 	<ul class="nav nav-pills nav-stacked nav-picture hidden-xs hidden-sm">
 
-		<li<?php if ($title == 'celebrity') : ?> class="active "<?php endif; ?>><a href="<?php echo base_url(); ?>celebrity">celebrity</a></li>
-
     <li<?php if ($title == 'beauty') : ?> class="active "<?php endif; ?>><a href="<?php echo base_url(); ?>beauty">beauty</a></li>
+
+	<li<?php if ($title == 'celebrity') : ?> class="active "<?php endif; ?>><a href="<?php echo base_url(); ?>celebrity">celebrity</a></li>
 
     <li<?php if ($title == 'fashion') : ?> class="active "<?php endif; ?>><a href="<?php echo base_url(); ?>fashion">fashion</a></li>
 
     <li<?php if ($title == 'lifestyle') : ?> class="active "<?php endif; ?>><a href="<?php echo base_url(); ?>lifestyle">lifestyle</a></li>
+
+    <li<?php if ($title == 'bridal') : ?> class="active "<?php endif; ?>><a href="<?php echo base_url(); ?>bridal">bridal</a></li>
 
 
 	</ul>
